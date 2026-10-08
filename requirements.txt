@@ -1,0 +1,39 @@
+# Web Framework
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Configuration
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# LLM Providers
+google-generativeai==0.8.3
+
+# Logging
+structlog==24.4.0
+
+# HTTP Client
+httpx==0.28.1
+
+# Database - PostgreSQL
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# Redis
+redis==5.2.1
+
+# Qdrant Vector Database
+qdrant-client==1.12.1
+
+# PDF Processing
+PyMuPDF==1.24.14
+
+# Utilities
+python-multipart==0.0.12
+python-dotenv==1.0.1
+asgiref==3.8.1
+aiofiles==24.1.0
+
+# YAML for prompt templates
+pyyaml==6.0.2
